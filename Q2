@@ -1,0 +1,27 @@
+import java.util.*;
+public class MinMax {
+    public static void main(String Args[]){
+        int n, max,min ,i;
+        int[] MinMaxArr = new int[500];
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the no.of Elements: ");
+        n = sc.nextInt();
+        System.out.print("Enter" + " " + n +" " + "Elements :");
+
+        for(i = 0; i<n; i++){
+            MinMaxArr[i] = sc.nextInt();
+        }
+        max = min = MinMaxArr[0];
+        for(i = 1; i<n; i++){
+            if(MinMaxArr[i]> max){
+                max = MinMaxArr[i];
+            }
+            else if (MinMaxArr[i]<min){
+                min = MinMaxArr[i];
+            }
+        }
+        System.out.println("Largest Number : " + max);
+        System.out.println("Smallest Number : " + min);
+    }
+}
