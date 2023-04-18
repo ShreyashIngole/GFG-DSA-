@@ -1,0 +1,17 @@
+import java.util.*;
+import java.util.Arrays;
+public class Sort {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int Arr[] = new int[n];
+
+        for(int i = 0; i<n; i++){
+            Arr[i] = sc.nextInt();
+        }
+        Arrays.sort(Arr);
+        for(int i = 0; i<n; i++){
+            System.out.print(Arr[i]+" ");
+        }
+    }
+}
