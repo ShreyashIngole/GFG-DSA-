@@ -1,3 +1,4 @@
+// java
 class Solution{
     static boolean findsum(int arr[], int n){
             HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>(); 
