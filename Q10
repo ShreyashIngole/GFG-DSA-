@@ -1,4 +1,4 @@
-//Shreyash Ingole..
+//Shreyash Ingole..//
 class Solution{
     static int minJumps(int arr[]) 
     { 
