@@ -1,4 +1,4 @@
-//Shreyash Ingole
+//Shreyash Ingole//
 class Solution{
     public long findMinDiff (ArrayList<Integer> a, int n, int m)
     {
